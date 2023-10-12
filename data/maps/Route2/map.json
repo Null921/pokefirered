@@ -43,8 +43,8 @@
     {
       "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
-      "x": 15,
-      "y": 69,
+      "x": 18,
+      "y": 57,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 1,
@@ -191,7 +191,9 @@
       "dest_warp_id": "1"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "sign",
@@ -208,6 +210,36 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route2_EventScript_RouteSign"
+    },
+    {
+      "type": "hidden_item",
+      "x": 26,
+      "y": 68,
+      "elevation": 0,
+      "item": "ITEM_ORAN_BERRY",
+      "flag": "FLAG_HIDDEN_ITEM_ROUTE2_ORAN_BERRY1",
+      "quantity": 3,
+      "underfoot": false
+    },
+    {
+      "type": "hidden_item",
+      "x": 29,
+      "y": 68,
+      "elevation": 0,
+      "item": "ITEM_ORAN_BERRY",
+      "flag": "FLAG_HIDDEN_ITEM_ROUTE2_ORAN_BERRY2",
+      "quantity": 3,
+      "underfoot": false
+    },
+    {
+      "type": "hidden_item",
+      "x": 23,
+      "y": 75,
+      "elevation": 0,
+      "item": "ITEM_RAZZ_BERRY",
+      "flag": "FLAG_HIDDEN_ITEM_ROUTE2_RAZZ_BERRY",
+      "quantity": 1,
+      "underfoot": false
     }
   ]
 }

@@ -13,7 +13,7 @@
   "show_map_name": true,
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": null,
+  "connections": 0,
   "object_events": [
     {
       "type": "object",
@@ -214,7 +214,9 @@
       "dest_warp_id": "1"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "sign",
@@ -281,6 +283,16 @@
       "elevation": 0,
       "item": "ITEM_ANTIDOTE",
       "flag": "FLAG_HIDDEN_ITEM_VIRIDIAN_FOREST_ANTIDOTE",
+      "quantity": 1,
+      "underfoot": false
+    },
+    {
+      "type": "hidden_item",
+      "x": 47,
+      "y": 16,
+      "elevation": 0,
+      "item": "ITEM_POISON_BARB",
+      "flag": "FLAG_HIDDEN_ITEM_VIRIDIAN_FOREST_POISON_BARB",
       "quantity": 1,
       "underfoot": false
     }

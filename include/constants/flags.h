@@ -1072,8 +1072,8 @@
 #define FLAG_HIDDEN_ITEM_UNUSED_0x28                                       (FLAG_HIDDEN_ITEMS_START +  40)
 #define FLAG_HIDDEN_ITEM_ROUTE11_ESCAPE_ROPE                               (FLAG_HIDDEN_ITEMS_START +  41)
 #define FLAG_HIDDEN_ITEM_ROUTE12_HYPER_POTION                              (FLAG_HIDDEN_ITEMS_START +  42)
-#define FLAG_HIDDEN_ITEM_UNUSED_0x2B                                       (FLAG_HIDDEN_ITEMS_START +  43)
-#define FLAG_HIDDEN_ITEM_UNUSED_0x2C                                       (FLAG_HIDDEN_ITEMS_START +  44)
+#define FLAG_HIDDEN_ITEM_MT_MOON_B2F_MOON_STONE2                   (FLAG_HIDDEN_ITEMS_START + 43)
+#define FLAG_HIDDEN_ITEM_PEWTER_CITY_RAWST_BERRY                                      (FLAG_HIDDEN_ITEMS_START +  44)
 #define FLAG_HIDDEN_ITEM_UNUSED_0x2D                                       (FLAG_HIDDEN_ITEMS_START +  45)
 #define FLAG_HIDDEN_ITEM_UNUSED_0x2E                                       (FLAG_HIDDEN_ITEMS_START +  46)
 #define FLAG_HIDDEN_ITEM_CELADON_CITY_PP_UP                                (FLAG_HIDDEN_ITEMS_START +  47)
@@ -1222,15 +1222,15 @@
 #define FLAG_HIDDEN_ITEM_SSANNE_EXTERIOR_LAVA_COOKIE                       (FLAG_HIDDEN_ITEMS_START + 190)
 
 // Unused hidden item flags
-#define FLAG_UNUSED_0x4A7               0x4A7 // Unused Flag
-#define FLAG_UNUSED_0x4A8               0x4A8 // Unused Flag
-#define FLAG_UNUSED_0x4A9               0x4A9 // Unused Flag
-#define FLAG_UNUSED_0x4AA               0x4AA // Unused Flag
-#define FLAG_UNUSED_0x4AB               0x4AB // Unused Flag
-#define FLAG_UNUSED_0x4AC               0x4AC // Unused Flag
-#define FLAG_UNUSED_0x4AD               0x4AD // Unused Flag
-#define FLAG_UNUSED_0x4AE               0x4AE // Unused Flag
-#define FLAG_UNUSED_0x4AF               0x4AF // Unused Flag
+#define FLAG_HIDDEN_ITEM_ROUTE2_RAZZ_BERRY                      (FLAG_HIDDEN_ITEMS_START + 191)
+#define FLAG_HIDDEN_ITEM_ROUTE2_ORAN_BERRY1                      (FLAG_HIDDEN_ITEMS_START + 192)
+#define FLAG_HIDDEN_ITEM_ROUTE2_ORAN_BERRY2                      (FLAG_HIDDEN_ITEMS_START + 193)
+#define FLAG_HIDDEN_ITEM_VIRIDIAN_FOREST_POISON_BARB                   (FLAG_HIDDEN_ITEMS_START + 194)
+#define FLAG_HIDDEN_ITEM_DIGLETTS_CAVE_SOFT_SAND1                   (FLAG_HIDDEN_ITEMS_START + 195)
+#define FLAG_HIDDEN_ITEM_DIGLETTS_CAVE_SOFT_SAND2                   (FLAG_HIDDEN_ITEMS_START + 196)
+#define FLAG_HIDDEN_ITEM_DIGLETTS_CAVE_SOFT_SAND3                   (FLAG_HIDDEN_ITEMS_START + 197)
+#define FLAG_HIDDEN_ITEM_DIGLETTS_CAVE_NANAB_BERY                   (FLAG_HIDDEN_ITEMS_START + 198)
+#define FLAG_HIDDEN_ITEM_MT_MOON_1F_HARD_STONE                   (FLAG_HIDDEN_ITEMS_START + 199)
 
 // Boss clear flags, 1200
 #define FLAG_DEFEATED_BROCK           0x4B0
